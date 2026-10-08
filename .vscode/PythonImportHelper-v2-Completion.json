@@ -1,0 +1,299 @@
+[
+    {
+        "label": "dona",
+        "kind": 5,
+        "importPath": "CASO 1",
+        "description": "CASO 1",
+        "peekOfCode": "dona = float(input(\"Insertar monto de la donación: \"))\ncs = dona * 0.25\nes = dona * 0.35\nco = (es + cs) * 0.28\npm = co * 0.40 \nasi= dona - (cs + es + co + pm)\nprint(\"------------------------------------\")\nprint(\"DINERO CORRESPONDIENTE A CADA ÁREA:\")\nprint(\"------------------------------------\")\nprint(\"Donación total: \", dona)",
+        "detail": "CASO 1",
+        "documentation": {}
+    },
+    {
+        "label": "cs",
+        "kind": 5,
+        "importPath": "CASO 1",
+        "description": "CASO 1",
+        "peekOfCode": "cs = dona * 0.25\nes = dona * 0.35\nco = (es + cs) * 0.28\npm = co * 0.40 \nasi= dona - (cs + es + co + pm)\nprint(\"------------------------------------\")\nprint(\"DINERO CORRESPONDIENTE A CADA ÁREA:\")\nprint(\"------------------------------------\")\nprint(\"Donación total: \", dona)\nprint(\"Centro de salud: \", cs)",
+        "detail": "CASO 1",
+        "documentation": {}
+    },
+    {
+        "label": "es",
+        "kind": 5,
+        "importPath": "CASO 1",
+        "description": "CASO 1",
+        "peekOfCode": "es = dona * 0.35\nco = (es + cs) * 0.28\npm = co * 0.40 \nasi= dona - (cs + es + co + pm)\nprint(\"------------------------------------\")\nprint(\"DINERO CORRESPONDIENTE A CADA ÁREA:\")\nprint(\"------------------------------------\")\nprint(\"Donación total: \", dona)\nprint(\"Centro de salud: \", cs)\nprint(\"Escuela: \", es)",
+        "detail": "CASO 1",
+        "documentation": {}
+    },
+    {
+        "label": "co",
+        "kind": 5,
+        "importPath": "CASO 1",
+        "description": "CASO 1",
+        "peekOfCode": "co = (es + cs) * 0.28\npm = co * 0.40 \nasi= dona - (cs + es + co + pm)\nprint(\"------------------------------------\")\nprint(\"DINERO CORRESPONDIENTE A CADA ÁREA:\")\nprint(\"------------------------------------\")\nprint(\"Donación total: \", dona)\nprint(\"Centro de salud: \", cs)\nprint(\"Escuela: \", es)\nprint(\"Comedor: \", co)",
+        "detail": "CASO 1",
+        "documentation": {}
+    },
+    {
+        "label": "pm",
+        "kind": 5,
+        "importPath": "CASO 1",
+        "description": "CASO 1",
+        "peekOfCode": "pm = co * 0.40 \nasi= dona - (cs + es + co + pm)\nprint(\"------------------------------------\")\nprint(\"DINERO CORRESPONDIENTE A CADA ÁREA:\")\nprint(\"------------------------------------\")\nprint(\"Donación total: \", dona)\nprint(\"Centro de salud: \", cs)\nprint(\"Escuela: \", es)\nprint(\"Comedor: \", co)\nprint(\"Posta médica: \", pm)",
+        "detail": "CASO 1",
+        "documentation": {}
+    },
+    {
+        "label": "cod",
+        "kind": 5,
+        "importPath": "CASO 2",
+        "description": "CASO 2",
+        "peekOfCode": "cod = int(input(\"Ingrese el código: \"))\ncan = int(input(\"Ingrese la cantidad: \"))\nif cod == 1000:\n    pre = 170.5\nelif cod == 1001:\n    pre = 190.5\nelif cod == 1002:\n    pre = 100.5\nelse:\n    pre = 600.5",
+        "detail": "CASO 2",
+        "documentation": {}
+    },
+    {
+        "label": "can",
+        "kind": 5,
+        "importPath": "CASO 2",
+        "description": "CASO 2",
+        "peekOfCode": "can = int(input(\"Ingrese la cantidad: \"))\nif cod == 1000:\n    pre = 170.5\nelif cod == 1001:\n    pre = 190.5\nelif cod == 1002:\n    pre = 100.5\nelse:\n    pre = 600.5\ncom = pre * can",
+        "detail": "CASO 2",
+        "documentation": {}
+    },
+    {
+        "label": "com",
+        "kind": 5,
+        "importPath": "CASO 2",
+        "description": "CASO 2",
+        "peekOfCode": "com = pre * can\nif can < 20:\n    impdes = com * 0.05\nelif can < 35:\n    impdes = com * 0.09\nelif can < 45:\n    impdes = com * 0.12\nelif can < 55:\n    impdes = com * 0.16\nelse:",
+        "detail": "CASO 2",
+        "documentation": {}
+    },
+    {
+        "label": "imppa",
+        "kind": 5,
+        "importPath": "CASO 2",
+        "description": "CASO 2",
+        "peekOfCode": "imppa = com - impdes\nif imppa > 2000:\n    reg = 2\nelse:\n    reg = 1\nprint(\"------------------------------------\")\nprint(\"BOLETA DE COMPRA:\")\nprint(\"------------------------------------\")\nprint(\"Importe de compra:\", com)\nprint(\"Importe de descuento:\", impdes)",
+        "detail": "CASO 2",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "CASO A",
+        "description": "CASO A",
+        "peekOfCode": "b = float(input(\"Base del Triángulo: \"))\nh = float(input(\"Altura del Triángulo: \"))\nareat = (b * h)/2.0\nprint(\"-------------------------------------\")\nprint(\"ÁREA DEL TRIANGULO:\")\nprint(\"-------------------------------------\")\nprint(\"Base del Triángulo   : \",b)\nprint(\"Altura del Triagulo  : \",h)\nprint(\"Área del Triángulo   : \",areat)",
+        "detail": "CASO A",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "CASO A",
+        "description": "CASO A",
+        "peekOfCode": "h = float(input(\"Altura del Triángulo: \"))\nareat = (b * h)/2.0\nprint(\"-------------------------------------\")\nprint(\"ÁREA DEL TRIANGULO:\")\nprint(\"-------------------------------------\")\nprint(\"Base del Triángulo   : \",b)\nprint(\"Altura del Triagulo  : \",h)\nprint(\"Área del Triángulo   : \",areat)",
+        "detail": "CASO A",
+        "documentation": {}
+    },
+    {
+        "label": "areat",
+        "kind": 5,
+        "importPath": "CASO A",
+        "description": "CASO A",
+        "peekOfCode": "areat = (b * h)/2.0\nprint(\"-------------------------------------\")\nprint(\"ÁREA DEL TRIANGULO:\")\nprint(\"-------------------------------------\")\nprint(\"Base del Triángulo   : \",b)\nprint(\"Altura del Triagulo  : \",h)\nprint(\"Área del Triángulo   : \",areat)",
+        "detail": "CASO A",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "CASO B",
+        "description": "CASO B",
+        "peekOfCode": "r = float(input(\"Ingrese Radio: \"))\nA = 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"ÁREA DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"Radio         : \", r)\nprint(\"Área Circulo  : \", A)",
+        "detail": "CASO B",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "CASO B",
+        "description": "CASO B",
+        "peekOfCode": "A = 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"ÁREA DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"Radio         : \", r)\nprint(\"Área Circulo  : \", A)",
+        "detail": "CASO B",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "CASO C",
+        "description": "CASO C",
+        "peekOfCode": "r = float(input(\"Ingrese valor del radio: \"))\nP = 2 * 3.1416 * r\nS = 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"El radio del circulo es: \", r)\nprint(\"El perimetro del circulo es: \", P)\nprint(\"La superficie del circulo es: \", S)",
+        "detail": "CASO C",
+        "documentation": {}
+    },
+    {
+        "label": "P",
+        "kind": 5,
+        "importPath": "CASO C",
+        "description": "CASO C",
+        "peekOfCode": "P = 2 * 3.1416 * r\nS = 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"El radio del circulo es: \", r)\nprint(\"El perimetro del circulo es: \", P)\nprint(\"La superficie del circulo es: \", S)",
+        "detail": "CASO C",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "kind": 5,
+        "importPath": "CASO C",
+        "description": "CASO C",
+        "peekOfCode": "S = 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"El radio del circulo es: \", r)\nprint(\"El perimetro del circulo es: \", P)\nprint(\"La superficie del circulo es: \", S)",
+        "detail": "CASO C",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "CASO D",
+        "description": "CASO D",
+        "peekOfCode": "a = float(input(\"Ingrese valor del lado: \"))\nP = a * 4\nS = a * a\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"El lado del cuadrado es: \", a)\nprint(\"El perimetro del cuadrado es: \", P)\nprint(\"La superficie del cuadrado es: \", S)",
+        "detail": "CASO D",
+        "documentation": {}
+    },
+    {
+        "label": "P",
+        "kind": 5,
+        "importPath": "CASO D",
+        "description": "CASO D",
+        "peekOfCode": "P = a * 4\nS = a * a\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"El lado del cuadrado es: \", a)\nprint(\"El perimetro del cuadrado es: \", P)\nprint(\"La superficie del cuadrado es: \", S)",
+        "detail": "CASO D",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "kind": 5,
+        "importPath": "CASO D",
+        "description": "CASO D",
+        "peekOfCode": "S = a * a\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL CÍRCULO:\")\nprint(\"------------------------------------\")\nprint(\"El lado del cuadrado es: \", a)\nprint(\"El perimetro del cuadrado es: \", P)\nprint(\"La superficie del cuadrado es: \", S)",
+        "detail": "CASO D",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "CASO E",
+        "description": "CASO E",
+        "peekOfCode": "a = float(input(\"Ingrese valor del lado: \"))\nS = 6 * a * a\nV = a * a * a\nprint(\"------------------------------------\")\nprint(\"SUPERFICIE Y VOLUMEN DEL CUBO:\")\nprint(\"------------------------------------\")\nprint(\"El lado del cubo es: \", a)\nprint(\"El volumen del cubo es: \", V)\nprint(\"La superficie del cubo es: \", S)",
+        "detail": "CASO E",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "kind": 5,
+        "importPath": "CASO E",
+        "description": "CASO E",
+        "peekOfCode": "S = 6 * a * a\nV = a * a * a\nprint(\"------------------------------------\")\nprint(\"SUPERFICIE Y VOLUMEN DEL CUBO:\")\nprint(\"------------------------------------\")\nprint(\"El lado del cubo es: \", a)\nprint(\"El volumen del cubo es: \", V)\nprint(\"La superficie del cubo es: \", S)",
+        "detail": "CASO E",
+        "documentation": {}
+    },
+    {
+        "label": "V",
+        "kind": 5,
+        "importPath": "CASO E",
+        "description": "CASO E",
+        "peekOfCode": "V = a * a * a\nprint(\"------------------------------------\")\nprint(\"SUPERFICIE Y VOLUMEN DEL CUBO:\")\nprint(\"------------------------------------\")\nprint(\"El lado del cubo es: \", a)\nprint(\"El volumen del cubo es: \", V)\nprint(\"La superficie del cubo es: \", S)",
+        "detail": "CASO E",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "CASO F",
+        "description": "CASO F",
+        "peekOfCode": "r = float(input(\"Ingrese valor del radio: \"))\nV = (4 / 3) * 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"VOLUMEN DE LA ESFERA:\")\nprint(\"------------------------------------\")\nprint(\"El radio de la esfera es: \", r)\nprint(\"El volumen de la esfera es: \", V)",
+        "detail": "CASO F",
+        "documentation": {}
+    },
+    {
+        "label": "V",
+        "kind": 5,
+        "importPath": "CASO F",
+        "description": "CASO F",
+        "peekOfCode": "V = (4 / 3) * 3.1416 * r * r\nprint(\"------------------------------------\")\nprint(\"VOLUMEN DE LA ESFERA:\")\nprint(\"------------------------------------\")\nprint(\"El radio de la esfera es: \", r)\nprint(\"El volumen de la esfera es: \", V)",
+        "detail": "CASO F",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "CASO G",
+        "description": "CASO G",
+        "peekOfCode": "r = float(input(\"Ingrese valor del radio: \"))\nh = float(input(\"Ingrese valor de la altura: \"))\nV=3.1416 * r * r * h\nprint(\"------------------------------------\")\nprint(\"VOLUMEN DEL CILINDRO:\")\nprint(\"------------------------------------\")\nprint(\"El radio del cilindro es: \", r)\nprint(\"La altura del cilindro es: \", h)\nprint(\"El volumen del cilindro es: \", V)",
+        "detail": "CASO G",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "CASO G",
+        "description": "CASO G",
+        "peekOfCode": "h = float(input(\"Ingrese valor de la altura: \"))\nV=3.1416 * r * r * h\nprint(\"------------------------------------\")\nprint(\"VOLUMEN DEL CILINDRO:\")\nprint(\"------------------------------------\")\nprint(\"El radio del cilindro es: \", r)\nprint(\"La altura del cilindro es: \", h)\nprint(\"El volumen del cilindro es: \", V)",
+        "detail": "CASO G",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "CASO H",
+        "description": "CASO H",
+        "peekOfCode": "a = float(input(\"Ingresar valor de la base: \"))\nb = float(input(\"Ingresar valor del primer lado: \"))\nc = float(input(\"Ingresar valor del segundo lado: \"))\nh = float(input(\"Ingresar valor de la altura: \"))\nP = a + b + c\nS = (a * h)/2.0\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL TRIANGULO:\")\nprint(\"------------------------------------\")\nprint(\"Base:\", a)",
+        "detail": "CASO H",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "CASO H",
+        "description": "CASO H",
+        "peekOfCode": "b = float(input(\"Ingresar valor del primer lado: \"))\nc = float(input(\"Ingresar valor del segundo lado: \"))\nh = float(input(\"Ingresar valor de la altura: \"))\nP = a + b + c\nS = (a * h)/2.0\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL TRIANGULO:\")\nprint(\"------------------------------------\")\nprint(\"Base:\", a)\nprint(\"Lado 1:\", b)",
+        "detail": "CASO H",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "CASO H",
+        "description": "CASO H",
+        "peekOfCode": "c = float(input(\"Ingresar valor del segundo lado: \"))\nh = float(input(\"Ingresar valor de la altura: \"))\nP = a + b + c\nS = (a * h)/2.0\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL TRIANGULO:\")\nprint(\"------------------------------------\")\nprint(\"Base:\", a)\nprint(\"Lado 1:\", b)\nprint(\"Laso 2:\", c)",
+        "detail": "CASO H",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "CASO H",
+        "description": "CASO H",
+        "peekOfCode": "h = float(input(\"Ingresar valor de la altura: \"))\nP = a + b + c\nS = (a * h)/2.0\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL TRIANGULO:\")\nprint(\"------------------------------------\")\nprint(\"Base:\", a)\nprint(\"Lado 1:\", b)\nprint(\"Laso 2:\", c)\nprint(\"Altura:\", h)",
+        "detail": "CASO H",
+        "documentation": {}
+    },
+    {
+        "label": "P",
+        "kind": 5,
+        "importPath": "CASO H",
+        "description": "CASO H",
+        "peekOfCode": "P = a + b + c\nS = (a * h)/2.0\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL TRIANGULO:\")\nprint(\"------------------------------------\")\nprint(\"Base:\", a)\nprint(\"Lado 1:\", b)\nprint(\"Laso 2:\", c)\nprint(\"Altura:\", h)\nprint(\"Perimetro:\", P)",
+        "detail": "CASO H",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "kind": 5,
+        "importPath": "CASO H",
+        "description": "CASO H",
+        "peekOfCode": "S = (a * h)/2.0\nprint(\"------------------------------------\")\nprint(\"PERIMETRO Y SUPERFICIE DEL TRIANGULO:\")\nprint(\"------------------------------------\")\nprint(\"Base:\", a)\nprint(\"Lado 1:\", b)\nprint(\"Laso 2:\", c)\nprint(\"Altura:\", h)\nprint(\"Perimetro:\", P)\nprint(\"Superficie:\", S)",
+        "detail": "CASO H",
+        "documentation": {}
+    }
+]
